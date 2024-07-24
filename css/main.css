@@ -178,7 +178,7 @@ footer div {
 
 @media (max-width: 480px) {
     #typew {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     p {
@@ -187,11 +187,15 @@ footer div {
     }
 
     li {
-        font-size: 24px;
+        font-size: 12px;
     }
 
     footer p {
         font-size: 20px;
+    }
+    #iff{
+        width: 100%;
+        height: 30vh;
     }
 
     footer a {
