@@ -5,22 +5,20 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body::-webkit-scrollbar {
     display: none;
-  }
+}
 
 #st {
     margin: 0;
-    /* background-image: url(); */
     background-color: #E0F7FA;
-    /* background-repeat: no-repeat; */
-    background-size: 100%;
 }
+
 #nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #fff; */
     background-image: url(./images/dark-background-abstract-background-network-3d-background-3840x2160-8324\ \(1\).png);
     background-repeat: no-repeat;
     border-radius: 1em;
@@ -29,66 +27,167 @@ body::-webkit-scrollbar {
     transition: width 1s;
     box-shadow: 0px 0px 10px 0px #4face2;
 }
+
 nav img {
     height: 50px;
     border-radius: 2em;
 }
-#parent{
-    /* border: 1px solid black; */
+
+#parent {
     margin-top: 10vh;
     padding: 50px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* padding-left: 40%; */
     background-image: url(./images/dark-background-abstract-background-network-3d-background-3840x2160-8324\ \(1\).png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.child{
+
+.child {
     font-size: 18px;
 }
 
-#typew{
+#typew {
     color: #f5f5dc;
     font-family: '';
     font-size: 70px;
 }
 
-p{
+p {
     color: #80878a;
     font-size: 20px;
     padding-left: 20px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li{
+li {
     color: #fff;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-footer{
+footer {
     background-image: url(./images/dark-background-abstract-background-network-3d-background-3840x2160-8324\ \(1\).png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 30vh;
 }
-footer p{
+
+footer p {
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
 }
 
-footer a{
+footer a {
     font-size: 20px;
     color: #fff;
-    margin-left:30px ;
+    margin-left: 30px;
 }
 
-footer div{
+footer div {
     font-size: 20px;
     color: #fff;
     margin: 30px;
+}
+
+/* Responsive Styles for screens up to 1080px */
+@media (max-width: 1080px) {
+    #nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #parent {
+        padding: 30px;
+    }
+
+    #typew {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    li {
+        font-size: 36px;
+    }
+
+    footer p {
+        font-size: 30px;
+    }
+
+    footer a {
+        font-size: 18px;
+    }
+
+    footer div {
+        font-size: 18px;
+        margin: 20px;
+    }
+}
+
+/* Additional responsive styles for screens up to 768px and 480px */
+@media (max-width: 768px) {
+    #parent {
+        padding: 20px;
+    }
+
+    #typew {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    footer p {
+        font-size: 25px;
+    }
+
+    footer a {
+        font-size: 16px;
+    }
+
+    footer div {
+        font-size: 16px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #typew {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    li {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
+
+    footer div {
+        font-size: 14px;
+        margin: 10px;
+    }
 }
