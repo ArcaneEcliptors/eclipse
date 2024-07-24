@@ -93,19 +93,21 @@ footer div {
     margin: 30px;
 }
 
-/* Responsive Styles for screens up to 1080px */
-@media (max-width: 1080px) {
+/* Responsive Styles */
+@media (max-width: 768px) {
     #nav {
         flex-direction: column;
         padding: 10px;
     }
 
     #parent {
-        padding: 30px;
+        padding: 20px;
+        
+        
     }
 
     #typew {
-        font-size: 60px;
+        font-size: 30px;
     }
 
     p {
@@ -114,40 +116,7 @@ footer div {
     }
 
     li {
-        font-size: 36px;
-    }
-
-    footer p {
-        font-size: 30px;
-    }
-
-    footer a {
-        font-size: 18px;
-    }
-
-    footer div {
-        font-size: 18px;
-        margin: 20px;
-    }
-}
-
-/* Additional responsive styles for screens up to 768px and 480px */
-@media (max-width: 768px) {
-    #parent {
-        padding: 20px;
-    }
-
-    #typew {
-        font-size: 50px;
-    }
-
-    p {
-        font-size: 16px;
-        padding-left: 5px;
-    }
-
-    li {
-        font-size: 30px;
+        font-size: 15px;
     }
 
     footer p {
@@ -160,7 +129,7 @@ footer div {
 
     footer div {
         font-size: 16px;
-        margin: 15px;
+        margin: 20px;
     }
 }
 
@@ -170,7 +139,7 @@ footer div {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
         padding-left: 5px;
     }
 
